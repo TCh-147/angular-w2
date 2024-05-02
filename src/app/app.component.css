@@ -1,0 +1,123 @@
+.bookNum{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0.5rem;
+    border: solid 2px grey;
+    border-radius: 15px;
+    background-color: #ffe4c2b7;
+}
+
+.showBooks{
+    width: 50%;
+    margin: 4rem auto;
+}
+
+.bookInfo{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    padding: 1rem;
+    border: solid 2px grey;
+    border-radius: 15px;
+    background-color: #ffe4c2b7;
+}
+
+.rating{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0rem;
+    border: solid 2px grey;
+    border-radius: 15px;
+    background-color: #ffe4c2b7;
+}
+
+textarea{
+    resize: none;
+}
+
+.rate-btn{
+    margin: 1rem 0rem;
+    border: none;
+    padding: 1.05rem 1.35rem;
+    border: solid 1px rgb(159, 162, 141);
+    border-radius: 50%;
+    background-color: rgb(228, 227, 197);
+    font-size: 20px;
+}
+
+.rate-btn:hover{
+    cursor: pointer;
+    border: solid 1px rgb(186, 186, 18);
+    background-color: rgb(255, 255, 0);
+}
+
+.book{
+    border: solid 2px grey;
+    border-radius: 15px;
+    padding: 2rem;
+    margin-top: 1.5rem;
+    background-color: #ffe4c2b7;
+}
+
+.rating-over-actions{
+    width: 40%;
+    margin: 10rem auto;
+    border: solid 2px grey;
+    border-radius: 15px;
+    padding: 2.5rem;
+    background-color: #ffe4c2e0;
+}
+
+.rating-over-btns{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.centered{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 0;
+}
+
+.over-btn{
+    padding: 0.5rem 1.5rem;
+    border: solid 1px grey;
+    border-radius: 5px;
+    background-color: rgb(224, 228, 197);
+}
+
+.over-btn:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 117, 0.933);
+}
+
+.ratedBooks{
+    width: 60%;
+    margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+    padding: 0.5rem;
+    border: solid 2px grey;
+    border-radius: 15px;
+    background-color: #ffe4c2b7;
+}
+
+#title, #author, #summary{
+    background-color: rgba(255, 243, 228, 0.612);
+    padding: 5px;
+    border: solid 1px grey;
+    border-radius: 3px;
+}
+
